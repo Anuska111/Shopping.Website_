@@ -1,0 +1,162 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#F8F9FC;
+color:#2D3436;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:white;
+box-shadow:0 2px 15px rgba(0,0,0,.08);
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:#6C63FF;
+}
+
+nav a{
+text-decoration:none;
+margin:0 18px;
+color:#444;
+font-weight:500;
+transition:.3s;
+}
+
+nav a:hover{
+color:#6C63FF;
+}
+
+.login{
+background:#6C63FF;
+color:white;
+padding:12px 22px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:70px 8%;
+}
+
+.left{
+width:50%;
+}
+
+.left h1{
+font-size:55px;
+line-height:70px;
+}
+
+.left p{
+margin:25px 0;
+font-size:18px;
+color:#555;
+}
+
+.left button{
+background:#FF6B6B;
+color:white;
+padding:15px 35px;
+border:none;
+border-radius:10px;
+cursor:pointer;
+font-size:18px;
+}
+
+.right img{
+width:550px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:30px;
+padding:70px 8%;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.offers{
+padding:70px 8%;
+background:#6C63FF;
+color:white;
+}
+
+.offer-container{
+display:flex;
+justify-content:space-between;
+margin-top:40px;
+}
+
+.offer{
+background:white;
+color:#333;
+padding:30px;
+border-radius:15px;
+width:30%;
+text-align:center;
+}
+
+.offer h3{
+color:#FF6B6B;
+font-size:32px;
+}
+
+.newsletter{
+padding:70px 8%;
+text-align:center;
+}
+
+.newsletter input{
+width:400px;
+padding:15px;
+border-radius:10px;
+border:1px solid gray;
+}
+
+.newsletter button{
+padding:15px 25px;
+background:#6C63FF;
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;
+margin-left:10px;
+}
+
+footer{
+padding:25px;
+text-align:center;
+background:#2D3436;
+color:white;
+}
